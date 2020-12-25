@@ -8,6 +8,7 @@ if (window.location.href.includes("amazon")) {
     var subtotal = document.getElementsByClassName("sc-price");
     var gbtotal = document.getElementsByClassName("a-spacing-mini");
 
+    // main price in gallery add hover to this
     for (var i = 0; i < myClasses.length; i++) {
         myClasses[i].innerHTML = c+parseInt(myClasses[i].innerHTML);
     }
