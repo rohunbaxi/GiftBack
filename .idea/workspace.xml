@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938d48e4-a16e-4865-8970-8af36f7c4d7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Extension/clickPopUpStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extension/popupSettings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extension/popupSettingsStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/extensionTesting.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/extensionTesting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -67,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608933202261</updated>
       <workItem from="1608933203954" duration="9997000" />
-      <workItem from="1608955433338" duration="5767000" />
+      <workItem from="1608955433338" duration="8528000" />
     </task>
     <servers />
   </component>
