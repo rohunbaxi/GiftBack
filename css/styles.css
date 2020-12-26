@@ -770,7 +770,7 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
-	margin-bottom: 3rem;
+	margin: 0;
 }
 
 .header h1 {
@@ -1809,13 +1809,13 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 13rem;
+		padding-top: 10rem;
 		padding-bottom: 10rem;
 		text-align: left;
 	}
 
 	.header .text-container {
-		margin-top: 6.5rem;
+		padding-bottom: 10em;
 	}
 	/* end of header */
 
@@ -1989,12 +1989,13 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .text-container {
-		margin-top: 7.5rem;
+		margin-top: 5rem;
 		margin-left: 2.5rem;
 	}
 
 	.header .image-container {
-		margin-left: 3rem;
+		margin-top: 3rem;
+        margin-left: 3rem;
 	}
 	/* end of header */
 
