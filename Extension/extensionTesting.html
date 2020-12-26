@@ -10,7 +10,7 @@
         color:blue;
     }
 
-    .container {
+    .popUp {
         align-items: center;
         display: flex;
         height: 100px;
@@ -143,14 +143,11 @@
 <body>
 
 <p class="amazon">1</p>
-<p class="amazon">26</p>
-<p class="amazon">52</p>
-<p class="amazon">42</p>
-<p class="amazon">51</p>
-<p class="amazon">60</p>
+<p class="amazon">2</p>
+<p class="amazon">3</p>
 
 <div class="hiddenWrap">
-    <div class="container">
+    <div class="popUp">
         <div class="email" onclick="expand(this)">
             <div class="from">
                 <div class="from-contents">
@@ -179,62 +176,8 @@
     </div>
 </div>
 
-<p id="p2">I live</p>
-
-<div class="testing"></div>
-
 </body>
 
-<script>
-    function expand(obj){
-        obj.classList.add('expand')
-    }
-
-    function contract() {
-        var divList = document.getElementsByTagName("div")
-        for (var i = 0; i < divList.length; i++){
-            if (divList[i].className === "email expand"){
-                divList[i].className = "email"
-            }
-        }
-        event.stopPropagation();
-    }
-
-    function modifyPage(elements) {
-        for (var i = 0; i <elements.length; i++){
-            var tempPrice = elements[i].innerHTML
-            var tempPopup = document.getElementsByClassName("container")[0]
-            elements[i].innerHTML = (nodeToString(createPopUp(tempPrice, tempPopup)))
-            // console.log(elements[i])
-        }
-    }
-
-    function createPopUp(price, popUpInstance) {
-        console.log(popUpInstance)
-        popUpInstance.getElementsByClassName("name")[0].innerHTML = price
-        popUpInstance.getElementsByClassName("name-large")[0].innerHTML = price
-        // console.log(popUpInstance)
-        return popUpInstance
-    }
-
-    function nodeToString (node) {
-        var tmpNode = document.createElement("div");
-        tmpNode.appendChild(node.cloneNode(true));
-        return tmpNode.innerHTML;
-    }
-
-    var amazonTags = document.getElementsByClassName("amazon")
-    console.log(amazonTags)
-    modifyPage(amazonTags)
-
-    // for (var i = 0; i < elements.length; i++){
-    //     elements[i].setAttribute("id", "p2")
-    //     elements[i].innerHTML = elements[i].innerHTML * 2
-    // }
-
-    // console.log(document.getElementsByClassName("container")[0].getElementsByClassName("name")[0])
-
-</script>
-
+<script src="clickPopUp.js" charset="utf-8"></script>
 
 </html>

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="938d48e4-a16e-4865-8970-8af36f7c4d7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/clickPopUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/clickPopUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/extensionTesting.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/extensionTesting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,7 +37,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.clickPopUp.js">
+    <configuration name="extensionTesting.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GiftBack/Extension/extensionTesting.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="clickPopUp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Extension/clickPopUp.js" working-dir="$PROJECT_DIR$/Extension">
+      <method v="2" />
+    </configuration>
+    <configuration name="content.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Extension/content.js" working-dir="$PROJECT_DIR$/Extension">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.clickPopUp.js" />
+        <item itemvalue="Node.js.content.js" />
+        <item itemvalue="JavaScript Debug.extensionTesting.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,11 +67,15 @@
       <option name="presentableId" value="Default" />
       <updated>1608933202261</updated>
       <workItem from="1608933203954" duration="9997000" />
-      <workItem from="1608955433338" duration="987000" />
+      <workItem from="1608955433338" duration="3973000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
