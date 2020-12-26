@@ -1,5 +1,4 @@
-.bgimg {
-    background-color: black;
+body {
     background-image: url('../images/header-background.jpg');
 }
 
