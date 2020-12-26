@@ -1,0 +1,11 @@
+.bg {
+    background-image:url('../images/header-background.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    width: 350px;
+    height: 500px;
+}
