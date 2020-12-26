@@ -133,6 +133,11 @@
     .expand .to-contents {
         transform: scale(1);
     }
+
+    .hiddenWrap{
+        display: none;
+    }
+
 </style>
 
 <body>
@@ -144,27 +149,29 @@
 <p class="amazon">5</p>
 <p class="amazon">6</p>
 
-<div class="container">
-    <div class="email" onclick="expand(this)">
-        <div class="from">
-            <div class="from-contents">
-                <div class="name">$27.99</div>
-            </div>
-        </div>
-        <div class="to">
-            <div class="to-contents">
-                <div class="top">
-                    <div class="name-large">$27.99</div>
-                    <div class="x-touch" onclick="contract()">
-                        <div class="x">&#10006;</div>
-                    </div>
+<div class="hiddenWrap">
+    <div class="container">
+        <div class="email" onclick="expand(this)">
+            <div class="from">
+                <div class="from-contents">
+                    <div class="name">$27.99</div>
                 </div>
-                <div class="bottom">
-                    <div class="row">
-                        <div class="link">Original: $25.99</div>
+            </div>
+            <div class="to">
+                <div class="to-contents">
+                    <div class="top">
+                        <div class="name-large">$27.99</div>
+                        <div class="x-touch" onclick="contract()">
+                            <div class="x">&#10006;</div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="link">You Donate: $2</div>
+                    <div class="bottom">
+                        <div class="row">
+                            <div class="link">Original: $25.99</div>
+                        </div>
+                        <div class="row">
+                            <div class="link">You Donate: $2</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -174,6 +181,8 @@
 
 <p id="p2">I live</p>
 
+<div class="testing"></div>
+
 </body>
 
 <script>
@@ -182,16 +191,41 @@
     }
 
     function contract() {
-        event.stopPropagation();
         document.querySelector('.email').classList.remove('expand');
+        event.stopPropagation();
+        console.log("AAA")
     }
 
-    var elements = document.getElementsByClassName("amazon")
-
-    for (var i = 0; i < elements.length; i++){
-        elements[i].setAttribute("id", "p2")
-        elements[i].innerHTML = elements[i].innerHTML * 2
+    function modifyPage(elements) {
+        for (var i = 0; i <elements.length; i++){
+            var tempPrice = elements[i].innerHTML
+            var tempPopup = document.getElementsByClassName("container")[0]
+            elements[i].innerHTML = (nodeToString(createPopUp(tempPrice, tempPopup)))
+        }
     }
+
+    function createPopUp(price, popUpInstance) {
+        popUpInstance.getElementsByClassName("name")[0].innerHTML = price
+        popUpInstance.getElementsByClassName("name-large")[0].innerHTML = price
+        // console.log(popUpInstance)
+        return popUpInstance
+    }
+
+    function nodeToString (node) {
+        var tmpNode = document.createElement("div");
+        tmpNode.appendChild(node.cloneNode(true));
+        return tmpNode.innerHTML;
+    }
+
+    var amazonTags = document.getElementsByClassName("amazon")
+    modifyPage(amazonTags)
+
+    // for (var i = 0; i < elements.length; i++){
+    //     elements[i].setAttribute("id", "p2")
+    //     elements[i].innerHTML = elements[i].innerHTML * 2
+    // }
+
+    // console.log(document.getElementsByClassName("container")[0].getElementsByClassName("name")[0])
 
 </script>
 
