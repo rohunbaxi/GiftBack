@@ -22,8 +22,8 @@ function modifyPage(elements) {
 }
 
 function createPopUp(price, popUpInstance) {
-    popUpInstance.getElementsByClassName("name")[0].innerText = price
-    popUpInstance.getElementsByClassName("name-large")[0].innerText = price
+    popUpInstance.getElementsByClassName("name")[0].innerText = "$".concat(price)
+    popUpInstance.getElementsByClassName("name-large")[0].innerText = "$".concat(price)
     return popUpInstance
 }
 

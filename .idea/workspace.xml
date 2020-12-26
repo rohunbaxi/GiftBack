@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="938d48e4-a16e-4865-8970-8af36f7c4d7f" name="Default Changelist" comment="" />
+    <list default="true" id="938d48e4-a16e-4865-8970-8af36f7c4d7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Extension/clickPopUpStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/extensionTesting.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/extensionTesting.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
@@ -61,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608933202261</updated>
       <workItem from="1608933203954" duration="9997000" />
-      <workItem from="1608955433338" duration="4329000" />
+      <workItem from="1608955433338" duration="5767000" />
     </task>
     <servers />
   </component>
