@@ -322,7 +322,7 @@ section {
 @media (max-width: 991px) {
     .main-content {
         padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 0px;
     }
 }
 
@@ -447,6 +447,7 @@ section {
 .au-btn {
     line-height: 45px;
     padding: 0 35px;
+    margin-top: 30px;
     text-transform: uppercase;
     color: #fff;
     -webkit-border-radius: 3px;
@@ -1407,8 +1408,9 @@ section {
 .account-item .image {
     width: 45px;
     height: 45px;
-    margin-left: 1435px;
+    margin-left: 1550px;
     float: left;
+    margin-right: 10px;
     overflow: hidden;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -3260,7 +3262,9 @@ section {
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     padding: 40px;
+    width: 1200px;
     padding-right: 35px;
+    margin-left: 310px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -3464,7 +3468,7 @@ section {
 .au-message__footer {
     text-align: center;
     padding-top: 35px;
-    padding-bottom: 45px;
+    padding-bottom: 0px;
 }
 
 .au-message p {
@@ -3829,6 +3833,10 @@ section {
     padding: 40px;
     padding-top: 32px;
     padding-bottom: 50px;
+}
+
+.default {
+    margin-left: 50px;
 }
 
 .au-inbox-wrap {
@@ -4231,6 +4239,7 @@ section {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    width: 1810px;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
@@ -4746,7 +4755,7 @@ section {
 }
 
 .copyright p {
-    font-size: 14px;
+    font-size: 18px;
     color: #666;
     line-height: -webkit-calc(24/14);
     line-height: -moz-calc(24/14);
