@@ -15,7 +15,6 @@ body {
 }
 
 .balance {
-
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -42,7 +41,6 @@ body {
     height: 500.00px;
     left: 0px;
     top: 0px;
-
 }
 
 .balance .image1 {
@@ -92,11 +90,9 @@ body {
     top: 0.00px;
     right: 0.00px;
     bottom: 0.00px;
-
 }
 
 .balance .group2 {
-
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -123,7 +119,6 @@ body {
     height: 168.00px;
     left: 4.00px;
     top: 156.00px;
-
 }
 
 .balance .group2 .rectangle7 {
@@ -168,7 +163,6 @@ body {
     left: 0.00px;
     top: 0.00px;
     bottom: 0.00px;
-
 }
 
 .balance .group2 .line2 {
@@ -198,7 +192,6 @@ body {
     height: 2.00px;
     top: 37.50px;
     right: 0.00px;
-
 }
 
 .balance .group2 .donationBalance {
@@ -238,7 +231,6 @@ body {
     height: 24.00px;
     left: 97.00px;
     top: 7.00px;
-
 }
 
 .balance .group2 .x83c2b143 {
@@ -278,7 +270,6 @@ body {
     height: 69.00px;
     left: 89.00px;
     top: 54.00px;
-
 }
 
 .balance .group2 .lifetimeDonations {
@@ -318,7 +309,6 @@ body {
     height: 20.00px;
     left: 72.00px;
     top: 139.00px;
-
 }
 
 .balance .group2 .lifetimeDonations .lifetimeDonations-0 {
@@ -382,11 +372,9 @@ body {
     height: 81.00px;
     left: 4.00px;
     bottom: 0.00px;
-
 }
 
 .balance .group3 {
-
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -413,7 +401,6 @@ body {
     height: 51.00px;
     left: 59.00px;
     top: 346.00px;
-
 }
 
 .balance .group3 .rectangle9 {
@@ -459,7 +446,6 @@ body {
     top: 0.00px;
     right: 0.00px;
     bottom: 0.00px;
-
 }
 
 .balance .group3 .donateToMyCharity {
@@ -499,7 +485,6 @@ body {
     height: 24.00px;
     left: 25.00px;
     top: 14.00px;
-
 }
 
 .balance .group3 .donateToMyCharity9f9c7fc9 {
@@ -539,7 +524,6 @@ body {
     height: 24.00px;
     left: 25.00px;
     top: 14.00px;
-
 }
 
 .balance .milestoneTracker {
@@ -579,7 +563,6 @@ body {
     height: 22.00px;
     left: 104.00px;
     top: 432.00px;
-
 }
 
 .balance .rectangle10 {
@@ -624,7 +607,6 @@ body {
     height: 16.00px;
     left: 14.00px;
     top: 465.00px;
-
 }
 
 .balance .rectangle11 {
@@ -669,7 +651,6 @@ body {
     height: 16.00px;
     left: 14.00px;
     top: 465.00px;
-
 }
 
 .balance .x814847d4 {
@@ -709,7 +690,6 @@ body {
     height: 17.00px;
     left: 300.00px;
     top: 443.00px;
-
 }
 
 .balance .x814847d4 .x814847d4-0 {
@@ -733,7 +713,6 @@ body {
 }
 
 .balance .group9 {
-
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -760,7 +739,6 @@ body {
     height: 42.50px;
     left: 4.00px;
     top: 83.00px;
-
 }
 
 .balance .group9 .rectangle6 {
@@ -805,7 +783,6 @@ body {
     left: 0.00px;
     top: 0.00px;
     right: 0.00px;
-
 }
 
 .balance .group9 .line1 {
@@ -835,11 +812,9 @@ body {
     height: 42.00px;
     left: 170.53px;
     bottom: 0.00px;
-
 }
 
 .balance .group9 .group8 {
-
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -866,7 +841,6 @@ body {
     height: 22.00px;
     left: 51.00px;
     top: 10.00px;
-
 }
 
 .balance .group9 .group8 .balancea644755b {
@@ -907,7 +881,6 @@ body {
     left: 0.00px;
     top: 0.00px;
     bottom: 0.00px;
-
 }
 
 .balance .group9 .group8 .settings {
@@ -948,11 +921,9 @@ body {
     top: 0.00px;
     right: 0.00px;
     bottom: 0.00px;
-
 }
 
 .balance .group1 {
-
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -979,7 +950,6 @@ body {
     height: 80.00px;
     left: 122.00px;
     top: 4.00px;
-
 }
 
 .balance .group1 .nopathCopy3 {
@@ -1029,6 +999,4 @@ body {
     top: 0.00px;
     right: 0.00px;
     bottom: 0.00px;
-
 }
-
