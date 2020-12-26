@@ -143,11 +143,11 @@
 <body>
 
 <p class="amazon">1</p>
-<p class="amazon">2</p>
-<p class="amazon">3</p>
-<p class="amazon">4</p>
-<p class="amazon">5</p>
-<p class="amazon">6</p>
+<p class="amazon">26</p>
+<p class="amazon">52</p>
+<p class="amazon">42</p>
+<p class="amazon">51</p>
+<p class="amazon">60</p>
 
 <div class="hiddenWrap">
     <div class="container">
@@ -161,8 +161,8 @@
                 <div class="to-contents">
                     <div class="top">
                         <div class="name-large">$27.99</div>
-                        <div class="x-touch" onclick="contract()">
-                            <div class="x">&#10006;</div>
+                        <div class="x-touch">
+                            <div class="x" onclick="contract()">&#10006;</div>
                         </div>
                     </div>
                     <div class="bottom">
@@ -191,9 +191,13 @@
     }
 
     function contract() {
-        document.querySelector('.email').classList.remove('expand');
+        var divList = document.getElementsByTagName("div")
+        for (var i = 0; i < divList.length; i++){
+            if (divList[i].className === "email expand"){
+                divList[i].className = "email"
+            }
+        }
         event.stopPropagation();
-        console.log("AAA")
     }
 
     function modifyPage(elements) {
@@ -201,10 +205,12 @@
             var tempPrice = elements[i].innerHTML
             var tempPopup = document.getElementsByClassName("container")[0]
             elements[i].innerHTML = (nodeToString(createPopUp(tempPrice, tempPopup)))
+            // console.log(elements[i])
         }
     }
 
     function createPopUp(price, popUpInstance) {
+        console.log(popUpInstance)
         popUpInstance.getElementsByClassName("name")[0].innerHTML = price
         popUpInstance.getElementsByClassName("name-large")[0].innerHTML = price
         // console.log(popUpInstance)
@@ -218,6 +224,7 @@
     }
 
     var amazonTags = document.getElementsByClassName("amazon")
+    console.log(amazonTags)
     modifyPage(amazonTags)
 
     // for (var i = 0; i < elements.length; i++){
