@@ -1,0 +1,9 @@
+.bgimg {
+    background-color: black;
+    background-image: url('../images/header-background.jpg');
+}
+
+html {
+    width: 350px;
+    height: 500px;
+}
