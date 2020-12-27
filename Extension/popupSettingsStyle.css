@@ -3,6 +3,11 @@ html {
     height: 500px;
 }
 
+.editPercent {
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
 body {
     font-family: 'Open Sans', serif;
     margin: 0;

@@ -3,10 +3,13 @@ window.onload= function() {
     var setti = document.getElementById("toSettings");
     var bal = document.getElementById("toBalance");
 
+    var pct = document.getElementById("editPercent");
+    var cst = document.getElementById("editConstant");
+
     if(dash) {
         dash.addEventListener("click", goToDash);
         function goToDash(){
-            window.location.href = "https://giftback.me/Dashboard/index.html";
+            window.open('https://giftback.me/Dashboard/index.html','_blank');
         }
     }
 
@@ -21,6 +24,24 @@ window.onload= function() {
         bal.addEventListener("click", goBalance);
         function goBalance(){
             window.location.href = "popup.html";
+        }
+    }
+
+    if(pct) {
+        pct.addEventListener("click", editPct);
+        function editPct(){
+            if (cst.innerHTML=="") {            
+                pct.setAttribute("contenteditable", "true")
+            }
+        }
+    }
+
+    if(cst) {
+        cst.addEventListener("click", editCst);
+        function editCst(){
+            if (pct.innerHTML=="") {            
+                cst.setAttribute("contenteditable", "true")
+            }
         }
     }
 
