@@ -977,6 +977,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-2 .icon-cards-area {
+	padding-left: 110px;
 	margin-top: 2.5rem;
 }
 
@@ -1000,7 +1001,6 @@ input[type='checkbox'] {
 .tabs #tab-3 img {
 	margin: 0 auto 3rem auto;
 }
-
 
 /*********************/
 /*     07. Video     */

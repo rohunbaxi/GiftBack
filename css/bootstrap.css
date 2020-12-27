@@ -477,7 +477,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 115%;
   height: auto;
 }
 
@@ -1048,6 +1048,18 @@ pre code {
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
+  }
+  .nize {
+    padding-left: 10px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .nize2 {
+    padding-left: 10px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
   .col-md-9 {
     -ms-flex: 0 0 75%;
