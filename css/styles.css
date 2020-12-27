@@ -366,6 +366,18 @@ input[type='checkbox'] {
 	}
 }
 
+.nize2{
+	width: 50px;
+}
+
+.image2{
+	width: 40%;
+	margin-left: 20%;
+}
+
+.img3{
+	width: 75%;
+}
 .form-control-submit-button {
 	display: inline-block;
 	width: 100%;
