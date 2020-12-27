@@ -1,4 +1,6 @@
-**Visit the [Giftback Website] (https://giftback.me/) to get started!**
+## GiftBack 
+
+**Visit https://giftback.me/ to get started!**
 
 ## Inspiration
 It is the holiday season, a time of gift-giving. In the age of COVID-19, much of this is done online. Yet, it is important to remember those less fortunate than we are. We've all personally known those who haven't had the luxury we take for granted of having the means to have a complete Christmas with proper gifts and all. 
