@@ -7,7 +7,7 @@ if (window.location.href.includes("amazon")) {
     var cartPrices = document.getElementsByClassName("sc-product-price");
     var subtotal = document.getElementsByClassName("sc-price");
     var gbtotal = document.getElementsByClassName("a-spacing-mini");
-    
+
     for (var i = 0; i < myClasses.length; i++) {
         myClasses[i].innerHTML = c+parseInt(myClasses[i].innerHTML);
     }
