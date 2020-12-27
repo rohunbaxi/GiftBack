@@ -1,13 +1,14 @@
-
 if (window.location.href.includes("amazon")) {
+
     var c = 1
+
     var myClasses = document.getElementsByClassName("a-price-whole");
     var itemPrices = document.getElementsByClassName("priceBlockBuyingPriceString");
-    var myClasses = document.getElementsByClassName("a-price-whole");
     var cartPrices = document.getElementsByClassName("sc-product-price");
     var subtotal = document.getElementsByClassName("sc-price");
     var gbtotal = document.getElementsByClassName("a-spacing-mini");
 
+    // main price in gallery add hover to this
     for (var i = 0; i < myClasses.length; i++) {
         myClasses[i].innerHTML = c+parseInt(myClasses[i].innerHTML);
     }
@@ -33,12 +34,10 @@ if (window.location.href.includes("amazon")) {
         }
     }
 
-} else {
+}  else {
     var myClasses = document.getElementsByClassName("css-2vqe5n esdkp3p0");
     for (var i = 0; i < myClasses.length; i++) {
         myClasses[i].innerHTML = 1;
     }
 }
-
-
 console.log("The URL of this page is: " + window.location.href)
