@@ -1,4 +1,4 @@
-## GiftBack 
+## GiftBack - Winner of MLH Holiday Hacks 2020
 
 **Visit https://giftback.me/ to get started!**
 
