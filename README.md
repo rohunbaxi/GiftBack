@@ -1,6 +1,6 @@
 ## GiftBack - Winner of MLH Holiday Hacks 2020
 
-**Visit https://giftback.me/ to get started!**
+**Visit [our website](https://giftback.me/) to get started or watch this [demo video](https://www.youtube.com/watch?v=feALLvT2Y-I) to learn how GiftBack works!**
 
 ## Inspiration
 It is the holiday season, a time of gift-giving. In the age of COVID-19, much of this is done online. Yet, it is important to remember those less fortunate than we are. We've all personally known those who haven't had the luxury we take for granted of having the means to have a complete Christmas with proper gifts and all. 
